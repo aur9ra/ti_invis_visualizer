@@ -3,7 +3,7 @@ from board import Board
 
 class Game:
     def __init__(self, **modes):
-        self.game_height = 50
+        self.game_height = 20
         self.game_width = 10
         self.tiref_process = Pymem('tiref.exe')
         self.board = Board(self.game_height, self.game_width)

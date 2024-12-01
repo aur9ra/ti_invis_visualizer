@@ -2,7 +2,7 @@ from game import Game
 import threading
 import time, random
 
-game = Game(render=True)
+game = Game(render=True, invis=True)
 
 while True:
     game.update_state()
